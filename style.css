@@ -23,7 +23,7 @@ html{
     width: 78px;
     display: flex;
     flex-direction: column;
-    gap: 13px;
+    gap: 6.5px;
     background-color: #FFFFFF;
 }
 #navbar .navbar-box{
