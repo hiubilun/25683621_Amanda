@@ -19,11 +19,10 @@ html{
 }
 #navbar{
     padding-top: 159px;
-    padding-bottom: 523px;
     width: 78px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 13px;
     background-color: #FFFFFF;
 }
 #navbar .navbar-box{
