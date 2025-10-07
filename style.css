@@ -2,6 +2,7 @@ html{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    background-color: #F9F9F9;
 }
 *{
     margin: 0;
@@ -35,14 +36,15 @@ html{
     height: 24px;
 }
 #main{
-    padding: 32px 40px;
-    width: 100%;
+    padding: 32px 0;
+    width: 90%;
+    max-width: 1362.8px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
-    background-color: #F9F9F9;
+    margin: 0 auto;
 }
 #header{
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,6 +79,7 @@ html{
     border-radius: 8px;
 }
 #content-container{
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color:#FFFFFF;
@@ -102,7 +105,8 @@ html{
 #edit-button{
     display: grid;
     place-content: center;
-    width: 93px;
+    width: 95%;
+    max-width: 93px;
     height: 44px;
     border-radius: 8px;
     background-color: #4182F9;
@@ -146,7 +150,8 @@ html{
 #add-email{
     display: grid;
     place-content: center;
-    width: 209px;
+    width: 95%;
+    max-width: 209px;
     height: 44px;
     border-radius: 8px;
     background-color: #ECF2FE;
