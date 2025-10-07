@@ -78,8 +78,7 @@ html{
     display: flex;
     flex-direction: column;
     background-color:#FFFFFF;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 8px;
 }
 #content{
     padding: 32px 32px 71px 32px;
