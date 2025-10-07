@@ -27,9 +27,7 @@ html{
     background-color: #FFFFFF;
 }
 #navbar .navbar-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 17px 27px;
     height: 58px;
 }
 .icon{
